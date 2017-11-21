@@ -502,7 +502,7 @@ var match_default = /*#__PURE__*/__webpack_require__.n(match);
 
 var header__ref = Object(preact_min["h"])(
   "nav",
-  { "class": "navbar navbar-expand-lg navbar-dark bg-dark" },
+  { "class": "navbar navbar-expand navbar-dark bg-dark" },
   Object(preact_min["h"])(
     match["Link"],
     { "class": "navbar-brand", href: "/" },
@@ -646,7 +646,7 @@ var movie_Movie = function (_Component) {
       Object(preact_min["h"])("img", {
         "class": "card-img-top",
         src: movie.isVisible ? movie.image : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgDTD2qgAAAAASUVORK5CYII=",
-        alt: "Card image cap",
+        alt: movie.title,
         height: "140"
       }),
       Object(preact_min["h"])(
